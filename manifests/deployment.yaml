@@ -13,7 +13,7 @@ spec:
         app: capston-frontend
     spec:
       containers:
-        - image: rk8sacr.azurecr.io/capston-frontend-image:v1
+        - image: acrcapstondevcin.azurecr.io/capston-frontend-image:v1
           name: capston-containers
           ports:
             - containerPort: 80
